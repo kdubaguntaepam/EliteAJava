@@ -1,0 +1,6 @@
+com\epam\ai\demo\models\Pet.class
+com\epam\ai\demo\restassured\APIResponse$1.class
+com\epam\ai\demo\restassured\APIResponse.class
+com\epam\ai\demo\config\ConfigManager.class
+com\epam\ai\demo\restassured\APIRequest.class
+com\epam\ai\demo\restassured\HttpMethod.class

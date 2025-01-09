@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.ai.demo.runners.RunTestsAT
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.236 s <<< FAILURE! - in com.epam.ai.demo.runners.RunTestsAT
+com.epam.ai.demo.runners.RunTestsAT.runScenario["Verify that a pet's details can be updated by its ID using PUT", "Add a New Pet to the Pet Store"](5)  Time elapsed: 2.629 s  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)'
+
+com.epam.ai.demo.runners.RunTestsAT.runScenario["Verify that a pet's details can be updated by its ID using PUT", "Add a New Pet to the Pet Store"](6)  Time elapsed: 2.148 s  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)'
+

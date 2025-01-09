@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.epam.ai.demo.runners.RunTestsAT" time="20.236" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Taas\EliteA\JavaFramework\aqa-java-api-framework\target\test-classes;C:\Taas\EliteA\JavaFramework\aqa-java-api-framework\target\classes;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Karthik_Dubagunta\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.17.1\jackson-dataformat-xml-2.17.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.6.2\woodstox-core-6.6.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Karthik_Dubagunta\AppData\Local\Temp\surefire2575666707093244981\surefirebooter12808265959069416175.jar C:\Users\Karthik_Dubagunta\AppData\Local\Temp\surefire2575666707093244981 2024-10-03T15-41-54_910-jvmRun1 surefire2853654969513252632tmp surefire_0623686534468698292tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Taas\EliteA\JavaFramework\aqa-java-api-framework\target\test-classes;C:\Taas\EliteA\JavaFramework\aqa-java-api-framework\target\classes;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Karthik_Dubagunta\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.17.1\jackson-dataformat-xml-2.17.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.6.2\woodstox-core-6.6.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar;C:\Users\Karthik_Dubagunta\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Karthik_Dubagunta"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Taas\EliteA\JavaFramework\aqa-java-api-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Karthik_Dubagunta\AppData\Local\Temp\surefire2575666707093244981\surefirebooter12808265959069416175.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+7-LTS"/>
+    <property name="user.name" value="Karthik_Dubagunta"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.4+7"/>
+    <property name="localRepository" value="C:\Users\Karthik_Dubagunta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\KARTHI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Taas\EliteA\JavaFramework\aqa-java-api-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Karthik_Dubagunta\.dotnet\tools\.store\powershell\7.2.4\powershell\7.2.4\tools\net6.0\any\win;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\Karthik_Dubagunta\scoop\shims;C:\Users\Karthik_Dubagunta\AppData\Local\Microsoft\WindowsApps;C:\Users\Karthik_Dubagunta\.dotnet\tools;C:\Users\Karthik_Dubagunta\.dotnet\tools;C:\Users\Karthik_Dubagunta\AppData\Local\Microsoft\WindowsApps;C:\Users\Karthik_Dubagunta\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.4+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successful addition of a new pet&quot;, &quot;Add a New Pet to the Pet Store&quot;](1)" classname="com.epam.ai.demo.runners.RunTestsAT" time="6.915">
+    <system-out><![CDATA[
+Scenario Outline: Successful addition of a new pet                                       # src/test/resources/features/Add a New Pet to the Pet Store.feature:10
+  Given I have the details of the pet "100","Tommy","available"                          # com.epam.ai.demo.stepdefinitions.PetStoreSteps.iHaveTheDetailsOfThePet(java.lang.String,java.lang.String,java.lang.String)
+Request spec is: io.restassured.internal.RequestSpecificationImpl@30501e60
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 100,
+    "name": "Tommy",
+    "status": "available"
+}
+S Code: 200
+  When I send a POST request to the "pet" endpoint with the pet's details in JSON format # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_send_a_post_request_to_the_endpoint_with_the_pet_s_details_in_json_format(java.lang.String)
+Status code: 200
+Body: {"id":100,"name":"Tommy","photoUrls":[],"tags":[],"status":"available"}
+  Then the pet should be added to the store's inventory                                  # com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_pet_should_be_added_to_the_store_s_inventory()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful addition of a new pet&quot;, &quot;Add a New Pet to the Pet Store&quot;](2)" classname="com.epam.ai.demo.runners.RunTestsAT" time="1.114">
+    <system-out><![CDATA[
+Scenario Outline: Successful addition of a new pet                                       # src/test/resources/features/Add a New Pet to the Pet Store.feature:11
+  Given I have the details of the pet "200","Tommy200","available"                       # com.epam.ai.demo.stepdefinitions.PetStoreSteps.iHaveTheDetailsOfThePet(java.lang.String,java.lang.String,java.lang.String)
+Request spec is: io.restassured.internal.RequestSpecificationImpl@39de9bda
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 200,
+    "name": "Tommy200",
+    "status": "available"
+}
+S Code: 200
+  When I send a POST request to the "pet" endpoint with the pet's details in JSON format # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_send_a_post_request_to_the_endpoint_with_the_pet_s_details_in_json_format(java.lang.String)
+Status code: 200
+Body: {"id":200,"name":"Tommy200","photoUrls":[],"tags":[],"status":"available"}
+  Then the pet should be added to the store's inventory                                  # com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_pet_should_be_added_to_the_store_s_inventory()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a pet can be retrieved by its ID&quot;, &quot;Add a New Pet to the Pet Store&quot;](3)" classname="com.epam.ai.demo.runners.RunTestsAT" time="3.455">
+    <system-out><![CDATA[
+Scenario Outline: Verify that a pet can be retrieved by its ID                                                 # src/test/resources/features/Add a New Pet to the Pet Store.feature:21
+Pet details: ID=300, Name=Tommy1, Status=available
+  Given I have the details of the pet "300","Tommy1","available" exists                                        # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_have_the_details_of_the_pet_exists(java.lang.String,java.lang.String,java.lang.String)
+Request spec is: io.restassured.internal.RequestSpecificationImpl@36790bec
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 300,
+    "name": "Tommy1",
+    "status": "available"
+}
+S Code: 200
+  When I send a POST request to the "pet" endpoint with the pet's details in JSON format                       # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_send_a_post_request_to_the_endpoint_with_the_pet_s_details_in_json_format(java.lang.String)
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/300
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status Code: 200
+  When User retrieves the pet details with ID "300"                                                            # com.epam.ai.demo.stepdefinitions.PetStoreSteps.user_retrieves_the_pet_details_with_id(java.lang.String)
+Response Body: {"id":300,"name":"Tommy1","photoUrls":[],"tags":[],"status":"available"}
+  Then The API should return a 200 OK response with the pet object that matches the "300","Tommy1","available" # com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_api_should_return_a_200_ok_response_with_the_pet_object_that_matches(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a pet can be retrieved by its ID&quot;, &quot;Add a New Pet to the Pet Store&quot;](4)" classname="com.epam.ai.demo.runners.RunTestsAT" time="2.193">
+    <system-out><![CDATA[
+Scenario Outline: Verify that a pet can be retrieved by its ID                                                   # src/test/resources/features/Add a New Pet to the Pet Store.feature:22
+Pet details: ID=400, Name=Tommy201, Status=available
+  Given I have the details of the pet "400","Tommy201","available" exists                                        # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_have_the_details_of_the_pet_exists(java.lang.String,java.lang.String,java.lang.String)
+Request spec is: io.restassured.internal.RequestSpecificationImpl@34f7b44f
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 400,
+    "name": "Tommy201",
+    "status": "available"
+}
+S Code: 200
+  When I send a POST request to the "pet" endpoint with the pet's details in JSON format                         # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_send_a_post_request_to_the_endpoint_with_the_pet_s_details_in_json_format(java.lang.String)
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/400
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status Code: 200
+  When User retrieves the pet details with ID "400"                                                              # com.epam.ai.demo.stepdefinitions.PetStoreSteps.user_retrieves_the_pet_details_with_id(java.lang.String)
+Response Body: {"id":400,"name":"Tommy201","photoUrls":[],"tags":[],"status":"available"}
+  Then The API should return a 200 OK response with the pet object that matches the "400","Tommy201","available" # com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_api_should_return_a_200_ok_response_with_the_pet_object_that_matches(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a pet&apos;s details can be updated by its ID using PUT&quot;, &quot;Add a New Pet to the Pet Store&quot;](5)" classname="com.epam.ai.demo.runners.RunTestsAT" time="2.629">
+    <failure message="&apos;void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)&apos;" type="java.lang.NoSuchMethodError"><![CDATA[java.lang.NoSuchMethodError: 'void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)'
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Verify that a pet's details can be updated by its ID using PUT                                         # src/test/resources/features/Add a New Pet to the Pet Store.feature:32
+Pet details: ID=100, Name=Tommy1Updated, Status=sold
+  Given I have the details of the pet "100","Tommy1Updated","sold" exists                                                # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_have_the_details_of_the_pet_exists(java.lang.String,java.lang.String,java.lang.String)
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 100,
+    "name": "Tommy1Updated",
+    "status": "sold"
+}
+Status Code: 200
+  When I send a PUT request to the "pet" endpoint with the pet's updated details in JSON format                          # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_send_a_put_request_to_the_endpoint_with_the_pet_s_updated_details_in_json_format(java.lang.String)
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/100
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status Code: 200
+  When User retrieves the pet details with ID "100"                                                                      # com.epam.ai.demo.stepdefinitions.PetStoreSteps.user_retrieves_the_pet_details_with_id(java.lang.String)
+  Then The API should return a 200 OK response with the updated pet object that matches the "100","Tommy1Updated","sold" # com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_api_should_return_a_200_ok_response_with_the_updated_pet_object_that_matches(java.lang.String,java.lang.String,java.lang.String)
+      java.lang.NoSuchMethodError: 'void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)'
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3848)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_api_should_return_a_200_ok_response_with_the_updated_pet_object_that_matches(PetStoreSteps.java:91)
+	at ✽.The API should return a 200 OK response with the updated pet object that matches the "100","Tommy1Updated","sold"(file:///C:/Taas/EliteA/JavaFramework/aqa-java-api-framework/src/test/resources/features/Add%20a%20New%20Pet%20to%20the%20Pet%20Store.feature:28)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a pet&apos;s details can be updated by its ID using PUT&quot;, &quot;Add a New Pet to the Pet Store&quot;](6)" classname="com.epam.ai.demo.runners.RunTestsAT" time="2.148">
+    <failure message="&apos;void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)&apos;" type="java.lang.NoSuchMethodError"><![CDATA[java.lang.NoSuchMethodError: 'void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)'
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Verify that a pet's details can be updated by its ID using PUT                                              # src/test/resources/features/Add a New Pet to the Pet Store.feature:33
+Pet details: ID=200, Name=Tommy201Updated, Status=pending
+  Given I have the details of the pet "200","Tommy201Updated","pending" exists                                                # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_have_the_details_of_the_pet_exists(java.lang.String,java.lang.String,java.lang.String)
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 200,
+    "name": "Tommy201Updated",
+    "status": "pending"
+}
+Status Code: 200
+  When I send a PUT request to the "pet" endpoint with the pet's updated details in JSON format                               # com.epam.ai.demo.stepdefinitions.PetStoreSteps.i_send_a_put_request_to_the_endpoint_with_the_pet_s_updated_details_in_json_format(java.lang.String)
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/200
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status Code: 200
+  When User retrieves the pet details with ID "200"                                                                           # com.epam.ai.demo.stepdefinitions.PetStoreSteps.user_retrieves_the_pet_details_with_id(java.lang.String)
+  Then The API should return a 200 OK response with the updated pet object that matches the "200","Tommy201Updated","pending" # com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_api_should_return_a_200_ok_response_with_the_updated_pet_object_that_matches(java.lang.String,java.lang.String,java.lang.String)
+      java.lang.NoSuchMethodError: 'void com.fasterxml.jackson.core.JsonParser.assignCurrentValue(java.lang.Object)'
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3848)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at com.epam.ai.demo.stepdefinitions.PetStoreSteps.the_api_should_return_a_200_ok_response_with_the_updated_pet_object_that_matches(PetStoreSteps.java:91)
+	at ✽.The API should return a 200 OK response with the updated pet object that matches the "200","Tommy201Updated","pending"(file:///C:/Taas/EliteA/JavaFramework/aqa-java-api-framework/src/test/resources/features/Add%20a%20New%20Pet%20to%20the%20Pet%20Store.feature:28)
+
+]]></system-out>
+  </testcase>
+</testsuite>
